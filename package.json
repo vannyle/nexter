@@ -1,0 +1,45 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "Landing page for Natours",
+  "main": "index.js",
+  "author": "Vanny",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp start",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss --fix",
+    "test": "npm run stylelint"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "browserslist": "^4.12.0",
+    "del": "^5.1.0",
+    "editorconfig-cli": "^0.3.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-normalize-scss": "^8.0.1",
+    "node-sass": "^4.14.1",
+    "posthtml-include": "^1.4.3",
+    "stylelint": "^13.5.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "dependencies": {
+    "readable-stream": "^3.6.0"
+  }
+}
